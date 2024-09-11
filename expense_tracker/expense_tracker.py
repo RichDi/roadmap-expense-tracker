@@ -52,7 +52,7 @@ def main():
     elif args.command == 'list':
         expense_list.list_command(args.month, args.category)
     elif args.command == 'summary':
-        expense_list.summary_command(args.month)
+        expense_list.summary_command(args.month, args.category)
     elif args.command == 'budget':
         expense_list.budget_command(args.amount)
     elif args.command == 'export':
