@@ -1,0 +1,7 @@
+build/
+dist/
+.vscode/
+__pycache__/
+expense_tracker.egg-info/
+test/
+expenses.json
