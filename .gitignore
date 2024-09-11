@@ -5,3 +5,4 @@ __pycache__/
 expense_tracker.egg-info/
 test/
 expenses.json
+.DS_Store
