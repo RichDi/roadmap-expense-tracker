@@ -49,6 +49,12 @@ This Expense Tracker is a python-based CLI tool created from the project ideas o
 ## Commands
 
 ```bash
-
+  expense-tracker add --description "Meat" --amount 20 --category "Food"
+  expense-tracker update --id 1 --description "Chicken" --amount 300 --category "Food"
+  expense-tracker delete --id 1
+  expense-tracker list
+  expense-tracker summary --month 9 --category "Food"
+  expense-tracker budget 200
+  expense-tracker export
 ```
 
